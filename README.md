@@ -1,4 +1,4 @@
-**main-branch has the exercise materials and projekti-branch has the actual project. Both can be opened with Live Server.**
+**main-branch has the exercise materials, learning diary, files including link to the video showing the project running and projekti-branch has the actual project. Both can be opened with Live Server.**
 **The project website is available at https://laurimetso.github.io/front-end/**
 
 # Portfolio Website
