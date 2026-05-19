@@ -43,10 +43,18 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
     const hamburgerButton = document.querySelector('.hamburger-button');
     const mobileMenu = document.querySelector('.mobile-menu');
+    const overlay = document.querySelector('.mobile-menu-overlay');
 
     if (!hamburgerButton || !mobileMenu) return;
 
     hamburgerButton.addEventListener('click', () => {
         mobileMenu.classList.toggle('active');
+        overlay.classList.toggle('active');
     });
+
+    overlay.addEventListener('click', () => {
+        mobileMenu.classList.remove('active');
+        overlay.classList.remove('active');
+    });
+
 });
