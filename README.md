@@ -1,5 +1,6 @@
 # Portfolio Website
 
+**main has the exercise materials and projekti-branch has the actual project. Both can be opened with Live Server.**
 This is a simple static portfolio website built with HTML, CSS, and JavaScript.
 
 ## Requirements
